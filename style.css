@@ -1,0 +1,124 @@
+html {
+  font-family: 'Fira+sans', sans-serif;
+}
+
+img {
+  display: none;
+}
+
+body {
+  background-color: #F0ECEE;
+  display: flex;
+  flex-direction: column;
+}
+
+strong {
+  color: #FF4850;
+}
+
+nav li {
+  display: flex;
+  position: relative;
+  right: 43px;
+  margin: 4px;
+  color: #88898B;
+}
+
+.button1, .button2 {
+  position: relative;
+  background-color: #FF4850;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.button1:hover, .button2:hover {
+  background-color: #CCC;
+  text-emphasis-color: #FF4850;
+}
+
+p {
+  color: #88898B;
+}
+
+h1 {
+  font-weight: 600;
+}
+@media only screen and (min-width: 768px) {
+
+  img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .container {
+    opacity: 0.9;
+  }
+
+  .header1 {
+    position: relative;
+    top: 20px;
+    left: 40px;
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+
+  nav li {
+    display: inline-flex;
+    position: relative;
+    left: 650px;
+    bottom: 50px;
+    margin-left: 10px;
+    color: #88898B;
+  }
+
+  h1 {
+    position: relative;
+    left: 40px;
+    top: 50px;
+    font-size: 28px;
+  }
+
+  p {
+    position: relative;
+    left: 40px;
+    top: 50px;
+    color: #88898B;
+    font-size: 18px;
+  }
+
+  h3 {
+    position: relative;
+    left: 40px;
+    top: 50px;
+  }
+
+  .button2 {
+    display: block;
+    background-color: #FF4850;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    width: auto;
+  }
+
+  .button1 {
+    display: block;
+    background-color: #FF4850;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 16px;
+  }
+
+  span {
+    display: block;
+  }
+}
